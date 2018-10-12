@@ -7,25 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		093CC2B60C241D94C4A7055E /* libPods-SpeechRecognitionSystem.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CDEA594D73B3B26E70A4E4A /* libPods-SpeechRecognitionSystem.a */; };
+		606282332123FE91000894A3 /* 任然-你好陌生人.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 606282322123FE91000894A3 /* 任然-你好陌生人.mp3 */; };
 		6093009A2123C47000705FBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 609300992123C47000705FBF /* AppDelegate.m */; };
 		6093009D2123C47000705FBF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6093009C2123C47000705FBF /* ViewController.m */; };
-		609300A02123C47000705FBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6093009E2123C47000705FBF /* Main.storyboard */; };
 		609300A22123C47200705FBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 609300A12123C47200705FBF /* Assets.xcassets */; };
-		609300A52123C47200705FBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 609300A32123C47200705FBF /* LaunchScreen.storyboard */; };
 		609300A82123C47200705FBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 609300A72123C47200705FBF /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		232A1F074265601E127969DB /* Pods-SpeechRecognitionSystem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeechRecognitionSystem.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpeechRecognitionSystem/Pods-SpeechRecognitionSystem.debug.xcconfig"; sourceTree = "<group>"; };
+		5769CB57F91480AE7DB20A4D /* Pods-SpeechRecognitionSystem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeechRecognitionSystem.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpeechRecognitionSystem/Pods-SpeechRecognitionSystem.release.xcconfig"; sourceTree = "<group>"; };
+		606282322123FE91000894A3 /* 任然-你好陌生人.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "任然-你好陌生人.mp3"; sourceTree = "<group>"; };
 		609300952123C47000705FBF /* SpeechRecognitionSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechRecognitionSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		609300982123C47000705FBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		609300992123C47000705FBF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6093009B2123C47000705FBF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6093009C2123C47000705FBF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6093009F2123C47000705FBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		609300A12123C47200705FBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		609300A42123C47200705FBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		609300A62123C47200705FBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		609300A72123C47200705FBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CDEA594D73B3B26E70A4E4A /* libPods-SpeechRecognitionSystem.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SpeechRecognitionSystem.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				093CC2B60C241D94C4A7055E /* libPods-SpeechRecognitionSystem.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A2F518E7106D10E9685718D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CDEA594D73B3B26E70A4E4A /* libPods-SpeechRecognitionSystem.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6093008C2123C47000705FBF = {
 			isa = PBXGroup;
 			children = (
 				609300972123C47000705FBF /* SpeechRecognitionSystem */,
 				609300962123C47000705FBF /* Products */,
+				7E97C56EF77DB9CDC4396E70 /* Pods */,
+				1A2F518E7106D10E9685718D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +71,25 @@
 		609300972123C47000705FBF /* SpeechRecognitionSystem */ = {
 			isa = PBXGroup;
 			children = (
+				606282322123FE91000894A3 /* 任然-你好陌生人.mp3 */,
 				609300982123C47000705FBF /* AppDelegate.h */,
 				609300992123C47000705FBF /* AppDelegate.m */,
 				6093009B2123C47000705FBF /* ViewController.h */,
 				6093009C2123C47000705FBF /* ViewController.m */,
-				6093009E2123C47000705FBF /* Main.storyboard */,
 				609300A12123C47200705FBF /* Assets.xcassets */,
-				609300A32123C47200705FBF /* LaunchScreen.storyboard */,
 				609300A62123C47200705FBF /* Info.plist */,
 				609300A72123C47200705FBF /* main.m */,
 			);
 			path = SpeechRecognitionSystem;
+			sourceTree = "<group>";
+		};
+		7E97C56EF77DB9CDC4396E70 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				232A1F074265601E127969DB /* Pods-SpeechRecognitionSystem.debug.xcconfig */,
+				5769CB57F91480AE7DB20A4D /* Pods-SpeechRecognitionSystem.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 609300AB2123C47200705FBF /* Build configuration list for PBXNativeTarget "SpeechRecognitionSystem" */;
 			buildPhases = (
+				CF505BFBAAA3C5714D03D7DA /* [CP] Check Pods Manifest.lock */,
 				609300912123C47000705FBF /* Sources */,
 				609300922123C47000705FBF /* Frameworks */,
 				609300932123C47000705FBF /* Resources */,
+				5301D831D4C26258693A30E7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,13 +151,51 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				609300A52123C47200705FBF /* LaunchScreen.storyboard in Resources */,
+				606282332123FE91000894A3 /* 任然-你好陌生人.mp3 in Resources */,
 				609300A22123C47200705FBF /* Assets.xcassets in Resources */,
-				609300A02123C47000705FBF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5301D831D4C26258693A30E7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SpeechRecognitionSystem/Pods-SpeechRecognitionSystem-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyBoardManager/Resources/IQKeyboardManager.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpeechRecognitionSystem/Pods-SpeechRecognitionSystem-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF505BFBAAA3C5714D03D7DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpeechRecognitionSystem-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		609300912123C47000705FBF /* Sources */ = {
@@ -148,25 +209,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		6093009E2123C47000705FBF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6093009F2123C47000705FBF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		609300A32123C47200705FBF /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				609300A42123C47200705FBF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		609300A92123C47200705FBF /* Debug */ = {
@@ -281,35 +323,41 @@
 		};
 		609300AC2123C47200705FBF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 232A1F074265601E127969DB /* Pods-SpeechRecognitionSystem.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QW493RE5T7;
 				INFOPLIST_FILE = SpeechRecognitionSystem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sunlu.163.SpeechRecognitionSystem;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunlu.163;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		609300AD2123C47200705FBF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5769CB57F91480AE7DB20A4D /* Pods-SpeechRecognitionSystem.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QW493RE5T7;
 				INFOPLIST_FILE = SpeechRecognitionSystem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sunlu.163.SpeechRecognitionSystem;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunlu.163;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
